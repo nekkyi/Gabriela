@@ -32,25 +32,51 @@ p
 section {text-align: left;
 }
 table {text-align: center;}
-header {background-color: rgb(191, 143, 245);
+head {background-color: rgb(191, 143, 245);
 width: 1340px;
 height: 50px;
 text-align:center;}
-footer {background-color: rgb(191, 143, 245);}
+footer {background-color: rgb(191, 143, 245);
+width: 1340px;
+height:80px;}
+
+ div #footer {text-align:right;} 
+
+ header {display: flex;
+background-color: antiquewhite;}
+div #titulo {justify-content: left;
+}
+ div #perfil {display: flex;
+justify-content: space-around;
+align-items: left;
+background-color: antiquewhite;
+}
+ div #name {display: flex;
+ justify-content: space-around;
+ align-items: left;
+ background-color: antiquewhite;}
+
+ 
 </style>
    </style>
 <header>
+    <div id="titulo"></div>
     <h1> Portifolio </h1>
-
-</header>
-
-<body>
-    
+</div>
+    <br>
+        <div id="perfil">
          <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/2387693-icone-do-perfil-do-usuario-vetor.jpg"
             width="100">
+        </div>
+       
+        <div id="name">
+    <h2> nome: gabriela de Souza Petersen</h2></div>
+      
         
-        <h2> nome: gabriela de Souza Petersen</h2>
-    <div>
+</header>
+    <body>
+        
+        
     <h3> Sobre mim </h3>
     <p>
         Idade:17 <br>
@@ -74,14 +100,18 @@ footer {background-color: rgb(191, 143, 245);}
         <li>organizada</li>
         <li>boa em trabalhar em grupos</li>
         <li>facilidade em aprender</li><br>
-        <br>
-        <table  border="2">
+        
+        <table  border="1">
             <thead>
-                <tr></tr>
-                <th> Cursos </th>
+                <tr>
+                    <h2><th colspan="3">Cursos</th></h2>
+
+                </tr>
+                <tr>
+                <th> Diciplina </th>
                 <th> Lugar  </th>
                 <th> Horas </th>
-                <th> ..</th>
+                
             </tr>
          </thead>
         <tbody>
@@ -101,6 +131,10 @@ footer {background-color: rgb(191, 143, 245);}
                 <th>Instituto Brasil</th>
                 <th>60h</th>
         </tr>
+        <tr>
+                    
+
+        </tr>
         </tbody>
         
         </tr>
@@ -111,19 +145,21 @@ footer {background-color: rgb(191, 143, 245);}
         <label for="email">Email</label> <br>
         <input placeholder="teste@anple.com" type="email" name="email"
         id="email"><br>
-
-
-
     </form>
 </body>
-</div>
+<br>
+<br>
+
 <footer>
     <section>
         <a href="https://github.com/nekkyi" 
     target="_blank"><img src="https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png" width="50"></a>
     <a href="https://www.instagram.com/gabi1a/" 
     target="_blank"><img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721672-instagram_108066.png" width="40"></a>
-   @gabriela
+ <div id="footer">
+    @gabriela
+
+ </div>
 </section>
 </footer>
 </html>
