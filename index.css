@@ -1,34 +1,41 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
 
 
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
-
-img {
-    border-radius: 20%;
 }
 
 .foto {
     align-items: left;
     justify-content: left;
-    padding: 20px;
+   padding-right: 20px;
+   padding-top: 3px;
+    border-radius: 20%;
+  
+
+}
+
+img {border-radius: 20%;
 
 
 }
 
-img {border-radius: 30%;
-
-}
 
 body {
     background-image: url('background.png');
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgba(205, 177, 238, 0.514);
     font-size: larger;
     max-width: max-content;
+    width: 100vw;
+    height: 100vh;
     
 }
 
@@ -44,9 +51,7 @@ p  {
 
 
 
-table,
-th,
-td {
+table, th, td {
     border: 3px solid rgba(84, 20, 104, 0.712);
     text-align: center;
 }
@@ -57,10 +62,9 @@ td {
     background-color: rgba(183, 144, 216, 0.445);
     height: 190px;
     width: 350px;
-    top: 25%;
-    left: 4%;
+    
     border-radius: 15%;
-    position: absolute;
+    position:relative;
 }
 
 .Idiomas {
@@ -70,9 +74,8 @@ td {
     width: 350px;
     align-content: center;
     border-radius: 15%;
-    position: absolute;
-    top: 25%;
-    left: 39%;
+    position: relative;
+    
 
 }
 
@@ -82,11 +85,9 @@ td {
     border-radius: 15%;
     height: 190px;
     width: 350px;
-    position: absolute;
-    top: 25%;
-    left: 73%;
+    position:relative;
+   
     
-  
 }
 
 
@@ -97,9 +98,8 @@ td {
     border-radius: 15%;
     height: 180px;
     width: 350px;
-    position: absolute;
-    top: 58%;
-    left: 67%;
+    position: relative;
+   
 
 
 }
@@ -130,9 +130,8 @@ footer {
 
 table {
     background-color: rgb(183, 144, 216, 0.445);
-    position: absolute;
-    top: 58%;
-    left: 7%;
+    position: relative;
+   
     height: 180px;
     width: 40%;
 
@@ -140,23 +139,36 @@ table {
 
 header {
     
-   width:1340px;
+   width:100vh;
    height:145px;
    background-color: rgba(227, 166, 233, 0.911);
    justify-content:space-between;
    text-align: center;
    display:flex ;
    justify-content: center;
-   align-items: center;
+  
  
 }
 .nav {
     padding-top: 10px;
     text-align: center;
+    align-items: center;
     margin: auto;
-   
+   padding-right: 10px ;
    width: auto;
-    display: table;
-     margin-top: 30%;
+    display: flex;
+     
+     justify-content:space-evenly;
 
+}
+.nav2 {
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    display: flex;
+     margin-top: 4%;
+   margin-bottom: 4%;
+     justify-content:space-evenly;
+    
 }
