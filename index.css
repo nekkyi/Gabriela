@@ -19,6 +19,12 @@
   
 
 }
+.nome {
+ padding-top: 50px;
+ justify-content: space-evenly;
+
+
+}
 
 img {border-radius: 20%;
 
@@ -33,7 +39,7 @@ body {
     background-blend-mode: multiply;
     background-color: rgba(205, 177, 238, 0.514);
     font-size: larger;
-    max-width: max-content;
+    
     width: 100vw;
     height: 100vh;
     
@@ -62,7 +68,7 @@ table, th, td {
     background-color: rgba(183, 144, 216, 0.445);
     height: 190px;
     width: 350px;
-    
+    padding-top: 50px;
     border-radius: 15%;
     position:relative;
 }
@@ -76,7 +82,6 @@ table, th, td {
     border-radius: 15%;
     position: relative;
     
-
 }
 
 .Fortess {
@@ -87,7 +92,7 @@ table, th, td {
     width: 350px;
     position:relative;
    
-    
+   padding-top: 50px;
 }
 
 
@@ -99,7 +104,7 @@ table, th, td {
     height: 180px;
     width: 350px;
     position: relative;
-   
+    padding-top: 50px;
 
 
 }
@@ -130,8 +135,8 @@ footer {
 
 table {
     background-color: rgb(183, 144, 216, 0.445);
-    position: relative;
-   
+    position:relative;
+
     height: 180px;
     width: 40%;
 
@@ -139,7 +144,7 @@ table {
 
 header {
     
-   width:100vh;
+   width:100wh;
    height:145px;
    background-color: rgba(227, 166, 233, 0.911);
    justify-content:space-between;
@@ -164,11 +169,12 @@ header {
 .nav2 {
     padding-top: 10px;
     text-align: center;
-    margin: auto;
-    width: auto;
+
     display: flex;
      margin-top: 4%;
-   margin-bottom: 4%;
-     justify-content:space-evenly;
+    margin-bottom: 4%;
+     justify-content: space-evenly;
+     
+
     
 }
